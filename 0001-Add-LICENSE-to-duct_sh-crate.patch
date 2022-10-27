@@ -1,0 +1,21 @@
+From 523ab13a305102d210c7ba923045d65b4e7569b4 Mon Sep 17 00:00:00 2001
+From: Jan Macku <jamacku@redhat.com>
+Date: Thu, 20 Oct 2022 15:55:51 +0200
+Subject: [PATCH] Add LICENSE to `duct_sh` crate
+
+---
+ duct_sh/LICENSE | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 120000 duct_sh/LICENSE
+
+diff --git a/duct_sh/LICENSE b/duct_sh/LICENSE
+new file mode 120000
+index 0000000..ea5b606
+--- /dev/null
++++ b/duct_sh/LICENSE
+@@ -0,0 +1 @@
++../LICENSE
+\ No newline at end of file
+-- 
+2.37.3
+
