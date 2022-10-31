@@ -19,7 +19,7 @@ BuildRequires:  rust-packaging >= 21
 
 # Upstream patches -- official upstream patches released by upstream since the
 # ----------------    last release that are necessary for any reason:
-Patch0001:      0001-Add-LICENSE-to-duct_sh-crate.patch
+Patch0001:      0001-add-a-LICENSE-file.patch
 
 %global _description %{expand:
 Sub-crate for the sh function, formerly in duct.}
@@ -36,7 +36,7 @@ This package contains library source intended for building other packages which
 use the "%{crate}" crate.
 
 %files          devel
-# FIXME: no license files detected
+%license %{crate_instdir}/LICENSE
 %doc %{crate_instdir}/README.md
 %{crate_instdir}/
 
